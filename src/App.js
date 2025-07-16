@@ -15,11 +15,12 @@ function App() {
 
   return (
     <div className="App">
+        wow
         <Header />
         <Routes>
             <Route index element={<ProductList />}/>
             <Route path={'/form'} element={<Form />}/>
-            wow
+
         </Routes>
 
     </div>
